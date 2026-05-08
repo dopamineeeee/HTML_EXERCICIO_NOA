@@ -1,0 +1,139 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+header {
+
+    border-bottom: 3px solid blue;
+    height: 40px;
+    width: 100%;
+
+}
+
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.logo{
+
+    display: flex;
+    height: 40px;
+    width: 30px;
+    
+}
+
+.active{
+
+display: flex;
+overflow: hidden;
+border-radius: 5px;
+
+}
+
+
+.botao {
+
+    background-color: white;
+    color: navy;
+    font-style: bold;
+    height: 32px;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box input {
+
+    height: 30px;
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box textarea {
+
+    height: 100px;
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box button {
+
+    background-color: navy;
+    color: white;
+    font-style: bold;
+    height: 40px;
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.box button:active{
+
+    background-color: blue;
+}
