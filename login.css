@@ -1,19 +1,17 @@
+*{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
 
 html, body {
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-}
-
-h1 {
-    margin: 0;
-    font-size: 30px;
-}
-
-p {
-    margin: 0 0 10px 0;
-    font-size: 16px;
 }
 
 button {
@@ -31,6 +29,13 @@ a {
     color: white;
 }
 
+.botao login1{
+
+    background-color: green;
+    color: white;
+    font: bold;
+
+}
 
 header {
 
@@ -62,7 +67,8 @@ header {
 
 display: flex;
 overflow: hidden;
-border-radius: 5px;
+
+
 
 }
 
@@ -77,7 +83,6 @@ border-radius: 5px;
     padding: 8px 15px;
     border-radius: 6px;
 }
-
 .selecionado
 {
     background-color: blue;
@@ -85,62 +90,74 @@ border-radius: 5px;
     font-weight: bold;
 }
 
+.login1 {
+
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
+}
+
 main {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
     height: 100%;
     width: 100%;
 }
 
-.box {
+.box{
 
     display: flex;
     flex-direction: column;
-    background-color: white;
-    justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 500px;
+    justify-content: center;
+    /* justify-items: center; */
     border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, 0.144);
+    height: fit-content;
+    width: fit-content;
+    gap: 15px;
+    border-radius: 5px;
+    padding: 20px 40px;
 }
 
 .box input {
 
-    height: 30px;
-    width: 80%;
-    margin: 10px 0;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.box textarea {
-
-    height: 100px;
-    width: 80%;
-    margin: 10px 0;
-    padding: 5px;
-    border: 1px solid #ccc;
+    width: 250px;
+    padding: 10px 5px;
+    border: 1px solid gainsboro;
     border-radius: 5px;
 }
 
 .box button {
 
-    background-color: navy;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    background-color: rgb(37, 37, 255);
     color: white;
-    font-style: bold;
-    height: 40px;
-    width: 80%;
-    padding: 10px 15px;
-    border-radius: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.box > h1
+{
+    color: blue;
 }
 
-.box button:active{
+.butoes {
 
-    background-color: blue;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+
 }
+
+.box img {
+    height: 50px;
+    width: 60px;
+}
+

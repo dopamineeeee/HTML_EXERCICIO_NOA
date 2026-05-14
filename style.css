@@ -62,7 +62,8 @@ header {
 
 display: flex;
 overflow: hidden;
-border-radius: 5px;
+
+
 
 }
 
@@ -76,6 +77,20 @@ border-radius: 5px;
     width: 100%;
     padding: 8px 15px;
     border-radius: 6px;
+}
+.selecionado
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.login {
+
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
 }
 
 section {

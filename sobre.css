@@ -78,6 +78,13 @@ border-radius: 5px;
     border-radius: 6px;
 }
 
+.selecionado
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
 main {
 
     display: flex;
