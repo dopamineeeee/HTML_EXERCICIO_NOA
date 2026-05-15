@@ -18,7 +18,7 @@
 
         <div class="menu">      
 
-            <button>Sair</button>
+            <button><a href="login.html">Sair</a></button>
 
         </div> 
 
@@ -28,9 +28,11 @@
 
         <aside>
             
-            <div class="subside">
+            <div>
 
-                <button>Consultar Produto</button>
+                <button id="btnConsulta">Consultar Produto</button>
+
+                
 
             </div>
 
@@ -40,16 +42,34 @@
 
         <main>
 
-            <div>
+            <div class="conteiner" id="inicio">
 
                 <h1>Bem-Vindo</h1>
-                Selecione una opção no menu lateral.
+                <p>Selecione uma opção no menu lateral.</p>
+
+             </div>
+
+            <div class="conteiner" id="consulta">
+
+                <h1>Consultar Produto</h1>
+
+                <input class="tamanho" type="text" placeholder="Digite o produto" id="campoProduto">
+
+                <button class="tamanho" id="btnBuscar">Buscar</button>
+
+                <button class="tamanho"><a href="index.html" id="btnvoltar">Voltar</a></button>
+
+                <div id="resultado"></div>
+
+                
 
             </div>
 
         </main>
 
     </div>
+
+    <script src="login2.js"></script>
 
 
 </body>

@@ -38,3 +38,4 @@ function getDadosDigitados(email,senha)
     dadosDigitados.senha = senha;
 
 }
+

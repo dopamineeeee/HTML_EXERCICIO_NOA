@@ -1,24 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-
     margin: 0;
-    height: 100vh;
-    width: 100dvw;
-
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 1px;
 }
 
 header {
-
     height: 60px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-content: center;
     justify-content: space-between;
     align-items: center;
     background-color: blue;
     color: white;
-    font-style: bold;
-    
+    font-weight: bold;
+    padding: 0 40px;
 }
 
 
@@ -38,15 +38,16 @@ header {
 {
 
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: larger;
+font-size: 30px;
 font-weight: bold;
+
 
 }
 
 .menu button {
 
     height: 40px;
-    width: 60px;
+    width: 80px;
     background-color: goldenrod;
     color: white;
     font-weight: bold;
@@ -54,31 +55,29 @@ font-weight: bold;
 
 }
 
+.menu a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
 .corpo {
-
     display: flex;
-    flex-direction: row;
-    height: 100%;
+    height: calc(100vh - 60px);
     width: 100%;
-
+    gap: 2px;
 }
 
 aside {
     display: flex;
+    justify-content: center;
     height: 100%;
     width: 20%;
     border: none;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-
-}
-
-.subside{
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    margin: 1px;
-
 
 }
 
@@ -87,8 +86,8 @@ aside button {
     background-color: blue;
     color: white;
     font-weight: bold;
-    height: fit-content;
-    width: 85%;
+    height: 40px;
+    width: 250px;
     border: none;
     padding: 10px;
     margin: 10px    ;
@@ -100,8 +99,74 @@ aside button {
 
 main {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     height: 100%;
     width: 80%;
     background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    
+    
+
+}
+
+.conteiner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+
+
+}
+
+.conteiner button {
+
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.conteiner h1 {
+
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+#consulta {
+    display: none;
+}
+
+.tamanho {
+
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+
+.tamanho a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 
 }
