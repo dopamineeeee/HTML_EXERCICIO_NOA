@@ -50,11 +50,6 @@ async function buscarProduto() {
 
     const resultado = document.getElementById("resultado");
 
-    const img = document.createElement("img");
-
-   img.src = produtoEncontrado.img;
-
-    document.body.appendChild(img);
 
     if(produtoEncontrado) {
 
