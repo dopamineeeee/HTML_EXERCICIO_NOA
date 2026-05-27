@@ -1,3 +1,5 @@
+
+
 const btnConsulta = document.getElementById("btnConsulta");
 
 const inicio = document.getElementById("inicio");
@@ -38,7 +40,7 @@ async function buscarProduto() {
         .value
         .toLowerCase();
 
-    const resposta = await fetch("produtos.json");
+    const resposta = await fetch("./JSON/produtos.json");
 
     const produtos = await resposta.json();
 
@@ -48,6 +50,12 @@ async function buscarProduto() {
 
     const resultado = document.getElementById("resultado");
 
+    const img = document.createElement("img");
+
+   img.src = produtoEncontrado.img;
+
+    document.body.appendChild(img);
+
     if(produtoEncontrado) {
 
         resultado.innerHTML = `
@@ -56,6 +64,7 @@ async function buscarProduto() {
 
             <p>Preço: R$ ${produtoEncontrado.preco}</p>
 
+            
         `;
 
     } else {

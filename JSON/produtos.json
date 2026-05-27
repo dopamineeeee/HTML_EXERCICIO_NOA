@@ -2,15 +2,18 @@
     {
         "nome": "Bomba Hidráulica",
         "preco": 1200
+        
     },
 
     {
         "nome": "Mangueira",
         "preco": 150
+        
     },
 
     {
         "nome": "Registro",
         "preco": 80
+       
     }
 ]
